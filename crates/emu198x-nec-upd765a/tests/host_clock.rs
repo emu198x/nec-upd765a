@@ -4,7 +4,7 @@
 //! once per 4 MHz CPU cycle. The same programmed step rate must take the same
 //! number of milliseconds on both, so the tick counts differ by the ratio of
 //! the two clocks.
-use nec_upd765a::Upd765a;
+use emu198x_nec_upd765a::Upd765a;
 
 const SPECTRUM_128_CPU_HZ: u64 = 3_546_895;
 const AMSTRAD_CPC_CPU_HZ: u64 = 4_000_000;

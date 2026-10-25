@@ -1,7 +1,7 @@
 //! NEC December 1978 p13: Write Deleted Data differs only in its data mark.
 //! Public-register tests, independent of the controller's private command tags.
 mod common;
-use nec_upd765a::{DiskImage, DiskSector, DiskTrack, ST2_CM, Upd765a};
+use emu198x_nec_upd765a::{DiskImage, DiskSector, DiskTrack, ST2_CM, Upd765a};
 
 /// The +3's CPU clock, which these cases were written against: the +3
 /// ticks the controller once per T-state.

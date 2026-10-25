@@ -1,7 +1,7 @@
 //! NEC December1978 p12: N=0 DTL limits host bytes, not the physical field
 //! or its CRC. Fuse upd_fdc_read_data independently consumes the unseen tail.
 mod common;
-use nec_upd765a::{DiskImage, DiskSector, DiskTrack, Upd765a};
+use emu198x_nec_upd765a::{DiskImage, DiskSector, DiskTrack, Upd765a};
 
 /// The +3's CPU clock, which these cases were written against: the +3
 /// ticks the controller once per T-state.

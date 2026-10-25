@@ -1,6 +1,6 @@
 //! Attention events through the existing documented image-presence input.
 //! This compatibility-input test does not equate insertion with physical READY.
-use nec_upd765a::{DiskImage, Upd765a};
+use emu198x_nec_upd765a::{DiskImage, Upd765a};
 
 /// The +3's CPU clock, which these cases were written against: the +3
 /// ticks the controller once per T-state.

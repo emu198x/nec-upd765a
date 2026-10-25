@@ -1,7 +1,7 @@
 //! Read Data/Deleted must match recorded CHRN on the physically selected side.
 //! Result CHRN and physical search timing are separate conformance work.
 mod common;
-use nec_upd765a::{DiskImage, DiskSector, DiskTrack, Upd765a};
+use emu198x_nec_upd765a::{DiskImage, DiskSector, DiskTrack, Upd765a};
 
 /// The +3's CPU clock, which these cases were written against: the +3
 /// ticks the controller once per T-state.

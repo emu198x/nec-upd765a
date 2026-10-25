@@ -1,4 +1,4 @@
-use nec_upd765a::Upd765a;
+use emu198x_nec_upd765a::Upd765a;
 
 pub fn await_read(f: &mut Upd765a) {
     for _ in 0..10_000 {

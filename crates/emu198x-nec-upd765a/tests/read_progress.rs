@@ -1,5 +1,5 @@
 //! Current transfer position and encountered errors, through public registers.
-use nec_upd765a::{DiskImage, DiskSector, DiskTrack, Upd765a};
+use emu198x_nec_upd765a::{DiskImage, DiskSector, DiskTrack, Upd765a};
 mod common;
 
 /// The +3's CPU clock, which these cases were written against: the +3

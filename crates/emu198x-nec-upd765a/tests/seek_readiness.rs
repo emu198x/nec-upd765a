@@ -1,7 +1,7 @@
 //! Register-level Seek checks. These use the controller's existing image-presence
 //! readiness model, not a claim about physical +3 READY wiring or step timing.
 
-use nec_upd765a::{DiskImage, DiskSector, DiskTrack, Upd765a};
+use emu198x_nec_upd765a::{DiskImage, DiskSector, DiskTrack, Upd765a};
 
 /// The +3's CPU clock, which these cases were written against: the +3
 /// ticks the controller once per T-state.

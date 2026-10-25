@@ -1,6 +1,6 @@
 //! NEC December 1978 p15, Table4: compare every disk byte against host bytes.
 //! Stock MAME 0.289 has documented Scan disagreements, not a passing oracle.
-use nec_upd765a::{DiskImage, DiskSector, DiskTrack, Upd765a};
+use emu198x_nec_upd765a::{DiskImage, DiskSector, DiskTrack, Upd765a};
 
 /// The +3's CPU clock, which these cases were written against: the +3
 /// ticks the controller once per T-state.

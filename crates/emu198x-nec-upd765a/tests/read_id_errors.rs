@@ -2,7 +2,7 @@
 //! printed p14 and pp17–18: missing IDs terminate abnormally with ST1.MA; no
 //! readable ID/data also sets ST1.ND. Failed CHRN and physical search timing are
 //! deliberately not asserted by this sector-image test.
-use nec_upd765a::{DiskImage, DiskSector, DiskTrack, Upd765a};
+use emu198x_nec_upd765a::{DiskImage, DiskSector, DiskTrack, Upd765a};
 
 /// The +3's CPU clock, which these cases were written against: the +3
 /// ticks the controller once per T-state.

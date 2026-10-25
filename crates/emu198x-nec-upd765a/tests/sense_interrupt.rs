@@ -1,7 +1,7 @@
 //! Public-register result framing, independent of the private result buffer.
 //! No-pending SIS already selects Invalid Command; that result has ST0 only.
 
-use nec_upd765a::Upd765a;
+use emu198x_nec_upd765a::Upd765a;
 
 /// The +3's CPU clock, which these cases were written against: the +3
 /// ticks the controller once per T-state.

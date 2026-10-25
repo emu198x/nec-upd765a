@@ -1,6 +1,6 @@
 //! Fully drained observations, not an oracle for disputed ST0/ST1/CHRN values.
 //! Matrix and independent CRC audit: docs/plans/2026-10-19-read-track-drained-crc.
-use nec_upd765a::{DiskImage, DiskSector, DiskTrack, Upd765a};
+use emu198x_nec_upd765a::{DiskImage, DiskSector, DiskTrack, Upd765a};
 
 /// The +3's CPU clock, which these cases were written against: the +3
 /// ticks the controller once per T-state.

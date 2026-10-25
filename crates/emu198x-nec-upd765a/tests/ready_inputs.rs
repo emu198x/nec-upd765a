@@ -1,5 +1,5 @@
 //! Complete digital READY event/result contract, separate from drive mechanics.
-use nec_upd765a::Upd765a;
+use emu198x_nec_upd765a::Upd765a;
 
 /// The +3's CPU clock, which these cases were written against: the +3
 /// ticks the controller once per T-state.

@@ -2,7 +2,7 @@
 //! NEC December 1978 p13 Table 2 covers processor/TC termination instead.
 //! Fuse start_read_data and MAME SECTOR_READ distinguish these cases.
 mod common;
-use nec_upd765a::{DiskImage, DiskSector, DiskTrack, Upd765a};
+use emu198x_nec_upd765a::{DiskImage, DiskSector, DiskTrack, Upd765a};
 
 /// The +3's CPU clock, which these cases were written against: the +3
 /// ticks the controller once per T-state.
